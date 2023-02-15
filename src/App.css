@@ -1,38 +1,53 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: url("https://i.imgur.com/wMoeBtp.jpg");
 }
 
-.App-link {
-  color: #61dafb;
+.App {
+  height: 600px;
+  width: 100vh;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.map {
+  height: 100%;
+  width: 98%;
+  border-radius: 20px;
+  border: solid 6px rgb(106, 62, 217);
+}
+
+.marker {
+  background-image: url("https://i.imgur.com/YgbtAH5.jpg");
+  background-size: cover;
+  width: 22px;
+  height: 22px;
+  background-color: gold;
+  border-radius: 11px;
+  border: solid 3px darkslateblue;
+}
+
+.delivery-marker {
+  background-image: url("https://i.imgur.com/l2drP10.png");
+  background-size: cover;
+  width: 25px;
+  height: 25px;
+}
+
+.longitude {
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.latitude {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.search-bar {
+  text-align: center;
+  /* justify-content: center; */
+  border-radius: 11px;
+  border: solid 3px darkslategray;
+  background-color: khaki;
 }
