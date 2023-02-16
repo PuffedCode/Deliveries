@@ -6,6 +6,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `Website`
+
+<a href="https://main.d2jk16775u5m7s.amplifyapp.com/" target="_blank">Deliveries</a>
+
+Visit the website. Click to add points on the map to add packages and a route will form.
+
 ### `npm start`
 
 Runs the app in the development mode.\
