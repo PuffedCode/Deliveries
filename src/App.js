@@ -63,7 +63,7 @@ const App = () => {
       lng: longitude,
       lat: latitude,
     };
-    const destinations = [];
+    let destinations = [];
 
     let map = tt.map({
       key: APP_KEY,
@@ -153,7 +153,13 @@ const App = () => {
     map.on("click", (event) => {
       destinations.push(event.lngLat);
       addDeliveryMarker(event.lngLat, map);
-      nums = nums + 1;
+      nums += 1 ;
+      calculateRoutes();
+    });
+
+    const element = document.getElementById("clear");
+    element.addEventListener("click", function() {
+      
       calculateRoutes();
     });
 
@@ -168,6 +174,9 @@ const App = () => {
             You are at: longitude:{longitude} latitude:
             {latitude}
           </h2>
+          <div className="box">
+            <button className="btn" id="clear">Clear Destination</button>
+          </div>
           <div ref={mapElement} className="map" />
           <div className="search-bar">
             <h2>Where are you at ?</h2>
