@@ -36,7 +36,7 @@ const App = () => {
       },
       paint: {
         "line-color": "darkblue",
-        "line-width": 6,
+        "line-width": 3,
       },
     });
   };
