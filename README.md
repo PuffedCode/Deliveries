@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `Website`
 
+    <a href="placeholder.com" target="_blank">Opens in new tab</a>
+
 <a target="_blank" href="https://main.d2jk16775u5m7s.amplifyapp.com">Deliveries</a>
 
 Visit the website. Click to add points on the map to add packages and a route will form.
