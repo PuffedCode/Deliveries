@@ -8,7 +8,7 @@ In the project directory, you can run:
 
 ### `Website`
 
-[Deliveries](https://main.d2jk16775u5m7s.amplifyapp.com){:target="_blank"}
+[Deliveries](https://main.d2jk16775u5m7s.amplifyapp.com)
 
 Visit the website. Click to add points on the map to add packages and a route will form.
 
